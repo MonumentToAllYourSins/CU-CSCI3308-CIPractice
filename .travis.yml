@@ -1,3 +1,4 @@
+sudo: required
 language: c
-before.insatall: sudo apt-get install check
+before.install: sudo apt-get install check
 script: make clean && make test
